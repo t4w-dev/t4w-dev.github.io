@@ -1,0 +1,599 @@
+.list span, .btn {
+  transition: all 200ms,transform 200ms;
+  -moz-transition: all 200ms,-moz-transform 200ms;
+  -webkit-transition: all 200ms,-webkit-transform 200ms;
+  -o-transition: all 200ms,-o-transform 200ms;
+}
+body {
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+}
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 10px;
+}
+.container {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.wrapper {
+	max-width: 1400px;
+	width: 1024px;
+	margin: 0 auto;
+	clear: both;
+}
+
+.all-right-div {
+	padding: 13px 0;
+	margin-top: 80px;
+	border-top: 1px solid #dadada;
+	color: #c7c7c7;
+	font-weight: 100;
+}
+
+.pg-footer {
+	width: 100%;
+	background: #eeeeee;
+	display: inline-block;
+	padding-top: 70px;
+}
+.pg-footer li a {
+	color: #646464;
+	padding: 13px 0;
+	display: inline-block; 
+}
+
+h1 {
+	font-size: 50px;
+	position: relative;
+}
+
+.ta-center {
+	color: #302c59;
+	margin: 100px auto;
+	text-align: center;
+}
+
+h1 span {
+	font-size: 25px;
+	font-weight: 100;
+	line-height: 48px;
+}
+.head {
+	font-size: 52px;
+	color: #302c59;
+	width: 100%;
+	text-align: center;
+}
+h1+p {
+	font-size: 20px;
+	font-weight: 100;
+	margin-top: 35px;
+	line-height: 30px;
+}
+
+.pg-navbar {
+	/*padding-top: 50px;*/
+	padding-top: 10px;
+	width: 100%;
+}
+.nav-links {
+	float: right;
+}
+.nav-links li {
+	float: right;
+}
+.nav-links li a{
+	color: #322c58;
+}
+.div-75 {
+	float: left;
+	width: 75%;
+}
+.div-60 {
+	float: left;
+	width: 60%;
+}
+.div-50 {
+	width: 50%;
+	float: left;
+}
+.div-100 {
+	width: 100%;
+	float: left;
+}
+.div-40 {
+	width: 40%;
+	float: left;
+}
+.div-30 {
+	width: 30%;
+	float: left;
+}
+.div-25 {
+	width: 25%;
+	float: left;
+}
+/*  Div coloums */
+.coloum3 >div{
+	width: 33.3333%;
+	float: left;
+}
+.container [class*='div']{
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+	position: relative;
+	z-index: 1;
+}
+.t-center {
+	text-align: center;
+}
+
+.banking-should h1 {
+	color: #312b59;
+}
+.quick-should h1, .whats-now h1{
+	color: #57557a
+}
+.available a{
+	float: left;
+	margin-top: 25px;
+}
+.banking-should {
+	/*padding: 100px 0;*/
+	height: 450px;
+}
+.banking-should img {
+	width: 200px;
+}
+.getting-card {
+	background: #302c59;
+	color: #ffffff;
+	height: 570px;
+}
+.safe-secure {
+	height: 630px;
+	background: url("../img/safe-bg.jpg") no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+	color: #ffffff;
+	position: relative;
+	text-align: center;
+}
+.safe-secure:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(48,44,89,.7); 
+}
+.box-720 {
+	width: 720px;
+	margin: 0 auto
+
+}
+.safe-secure p {
+	margin-bottom: 80px;
+	line-height: 35px
+}
+.btn {
+	display: inline-block;
+	padding: 15px;
+	font-weight: 100;
+	text-align: center;
+	border: 1px solid transparent;
+	background-color: transparent;
+	font-size: 11px;
+	text-transform: uppercase;
+	min-width: 150px;
+	letter-spacing: 2px;
+}
+._trans {
+	color: #ffffff;
+	border-color: rgba(139,135,154, .6);
+}
+._trans:hover {
+	background: rgba(139,135,154, .6);
+}
+._cuatro {
+	color: #ffffff;
+	background-color: #302c59;
+	border-color: rgba(139,135,154, .6);
+}
+._cuatro:hover {
+	background-color: #57557A;
+}
+._uno:hover {
+	color: #ffffff;
+	background-color: #57557A;
+}
+._uno {
+	color: #302c59;
+	border-color: #302c59;
+}
+
+.input-text {
+	font-size: 18px;
+	text-align: center;
+	font-weight: 100;
+	padding:20px 0;
+	width: 100%;
+	outline: 0;
+	margin: 50px 0 30px;
+}
+.quick-should {
+	padding: 100px 0;
+}
+.list  {
+	width: 100%;
+	display: inline-block;
+	margin: 60px 0;
+	text-align: center;
+}
+.list > span {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 1px solid #302c59;
+	display: inline-block;
+	margin-left: 10%;
+	cursor: pointer;
+	vertical-align: top;
+}
+.list i{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+.list span:hover {
+	background: #fce84a;
+	box-shadow: 0 0 0 10px #fce84a;
+}
+.list span:first-child {
+	margin-left: 0;
+}
+
+/*contact us*/
+.contact-us {
+	background: #fce84a;
+}
+.contact-us .page-head {
+	text-align: center;
+	color: #2f2c58;
+	height: 295px;
+	display: table;
+	width: 100%;
+}
+.contact-us .page-head>div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.contact-us-details {
+	text-align: center;
+	margin: 110px 0;
+	display: inline-block;
+	width: 100%;
+	color: #4c4c4c;
+}
+.contact-us-details h3 {
+	font-size: 20px;
+	color: #302c59;
+	margin: 30px 0;
+}
+.contact-us-details p {
+	font-size: 18px;
+	line-height: 30px;
+}
+.contact-us-details .icon {
+	display: inline-block;
+	width: 55px;
+}.contact-us-details .icon svg {
+	fill: #302c59;
+}
+.contact-us-details p a {
+	border-bottom: 1px solid #cfcfcf;
+	display: inline-block;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+	color: #4c4c4c;
+}
+
+/*Faq*/
+.faq {
+	background: url("../img/safe-bg.jpg") no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	overflow: hidden;
+	color: #ffffff;
+	position: relative;
+}
+
+.faq:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(48,44,89,.8); 
+}
+.faq .wrapper {
+	position: relative;
+	z-index: 1;
+}
+.faq .nav-links li a {
+	color: #ffffff
+}
+.faq .nav-links li a._uno {
+	background: #ffffff;
+	color: #322c58
+}
+
+.faq .page-head {
+	text-align: center;
+	display: table;
+	position: relative;
+	height: 290px;
+	z-index: 1;
+	width: 100%;
+}
+.faq .page-head>div {
+	display: table-cell;
+	vertical-align: middle;
+}
+.faq .yellow-br:after {
+	left: 40%;
+}
+.faq-list a{
+	display: inline-block;
+	padding: 28px 0 15px;
+	font-size: 16px;
+	color: #666666;
+	border-bottom: 1px solid #f1f1f1;
+	width: 100%;
+}
+.faq-list a._active {
+	color: #302c59;
+	position: relative;
+}
+.faq-list a._active:after {
+	content: "";
+	position: absolute;
+	bottom: 14px;
+	right: 10px;
+	border: 8px solid transparent;
+	border-left-color: #302c59;
+}
+.faq-list a:hover {
+	color: #302c59;
+}
+.faq-container .div-25{
+	padding-right: 40px;
+}
+.faq-container .div-75{
+	padding-left: 40px;
+}
+.faq-container {
+	padding: 100px 0;
+	font-size: 14px;
+}
+.faq-container .block {
+	display: none;
+}
+.faq-container .block h1 {
+	font-size: 30px;
+	font-weight: normal;
+}
+.faq-container .block .box {
+	margin-top: 60px;	
+}
+.faq-container .question {
+	font-size: 18px;
+	color: #302c59;
+	margin-bottom: 30px;
+}
+.faq-container .answer {
+	font-size: 14px;
+	line-height: 22px;
+}
+.faq-container .block .yellow-br {
+	margin-bottom: 50px;
+}
+.faq-container .block .yellow-br:after {
+	bottom: -25px;
+	width: 60px;
+}
+/* Resposive code starts here */
+@media (max-width: 1024px) {
+	.wrapper  {
+		width: 90%;
+	}
+}
+@media (max-width: 720px) {
+	/*Coloums 100*/
+	.coloum3>div {
+		width: 100%;
+	}
+	/*Div 100*/
+	.div-25, .div-30,.div-40,.div-50,.div-60, .box-720 {
+		width: 100%;
+		float: left;
+	}
+	.container .div-25, .container .div-30, .container .div-40, .container .div-50,.div-60, .container .box-720{
+		display: inline-block !important;
+		width: 100%;
+		float: left;
+		padding: 20px 0;
+		text-align: center;
+	}
+	h1.yellow-br:after{
+		left: 40%;
+	}
+	.banking-should {
+		padding: 50px 0;
+		height: auto;
+	}
+	.container img {
+		width: 80%
+	}
+	.pg-navbar {
+		text-align: center;
+	}
+	.nav-links {
+		display: none;
+	}
+	.getting-card {
+		height: auto;
+		padding-bottom: 40px;
+	}
+}
+h1.yellow-br {
+	margin-bottom: 80px;
+}
+h1.blue-br {
+	margin-bottom: 70px;
+}
+.yellow-br:after{
+	content: "";
+	position: absolute;
+	width: 20%;
+	height: 3px;
+	background: #fce84a;
+	bottom: -40px;
+	left: 0;
+}
+.blue-br:after{
+	content: "";
+	position: absolute;
+	width: 20%;
+	height: 3px;
+	background: #2f2c58;
+	bottom: -40px;
+	left: 40%;
+}
+.safe-secure h1.yellow-br:after{
+	left: 40%;
+}
+
+/* More to come */
+
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+		-moz-transform: translateY(0);
+		transform: translateY(0);
+	}
+	40% {
+		-moz-transform: translateY(-30px);
+		transform: translateY(-30px);
+	}
+	60% {
+		-moz-transform: translateY(-15px);
+		transform: translateY(-15px);
+	}
+}
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		transform: translateY(-30px);
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		transform: translateY(-15px);
+	}
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {
+		-moz-transform: translateY(0);
+		-ms-transform: translateY(0);
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	40% {
+		-moz-transform: translateY(-30px);
+		-ms-transform: translateY(-30px);
+		-webkit-transform: translateY(-30px);
+		transform: translateY(-30px);
+	}
+	60% {
+		-moz-transform: translateY(-15px);
+		-ms-transform: translateY(-15px);
+		-webkit-transform: translateY(-15px);
+		transform: translateY(-15px);
+	}
+}
+.bounce {
+	-moz-animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	animation: bounce 2s infinite;
+}
+
+.more-to-come {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	z-index: 2;
+}
+.more-to-come span {
+	width: 40px;
+	display: inline-block;
+}
+
+*/
+
+
+html, body {
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	overflow-x:hidden;
+}
+
+.skrollable {
+	/*
+	 * First-level skrollables are positioned relative to window
+	 */
+	position:fixed;
+
+	/*
+	 * Skrollables by default have a z-index of 100 in order to make it easy to position elements in front/back without changing each skrollable
+	 */
+	z-index:100;
+}
+
+.skrollr-mobile .skrollable {
+	/*
+		May cause issues on Android default browser (see #331 on GitHub).
+	*/
+	position:absolute;
+}
+
+.skrollable .skrollable {
+	/*
+	 * Second-level skrollables are positioned relative their parent skrollable
+	 */
+	position:absolute;
+}
+
+.skrollable .skrollable .skrollable {
+	/*
+	 * Third-level (and below) skrollables are positioned static
+	 */
+	position:static;
+}
