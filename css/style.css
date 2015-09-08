@@ -170,7 +170,7 @@ h1+p, h1+p+p {
 }
 .safe-secure {
 	height: 630px;
-	background: url("../img/safe-bg.jpg") no-repeat;
+	background: url("../img/safe-bg.jpg") no-repeat center;
 	background-attachment: fixed;
 	background-size: cover;
 	overflow: hidden;
@@ -665,24 +665,21 @@ html, body {
 	width: 275px;
 	height: 510px;
 	background: url(../img/mobile-1.png) no-repeat 0;
-	-webkit-transition:  0.5s ease-in;
-	-moz-transition:  0.5s ease-in;
-	transition:  0.5s ease-in;
 }
 .smobile.firstphone {
-	background: url(../img/mobile-1.png) no-repeat 0;
+	background-position: 0px 0px;
 }
 .smobile.secondphone {
-	background: url(../img/mobile-2.png) no-repeat 0;
+	background-position: 0px -510px;
 }
 .smobile.thirdphone {
-	background: url(../img/mobile-3.png) no-repeat 0;
+	background-position: 0px -1020px;
 }
 .smobile.fourthphone {
-	background: url(../img/mobile-4.png) no-repeat 0;
+	background-position: 0px -1530px;
 }
 .smobile.fifthphone {
-	background: url(../img/mobile-5.png) no-repeat 0;
+	background-position: 0px -2040px;
 }
 .sameer {
     padding: 30px;
