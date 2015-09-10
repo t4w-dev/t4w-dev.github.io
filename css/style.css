@@ -275,7 +275,7 @@ h1+p, h1+p+p {
 .list span:hover, .list span.active {
 	color: #302c59;
 	background: #fce84a;
-	box-shadow: 0 0 0 10px #fce84a;
+	box-shadow: 0 0 0 #fce84a;
 }
 
 /*contact us*/
@@ -663,7 +663,7 @@ html, body {
 }
 .smobile {
 	width: 275px;
-	height: 510px;
+	height: 495px;
 	background: url(../img/mobile-1.png) no-repeat 0;
 }
 .smobile.firstphone {
@@ -740,6 +740,10 @@ html, body {
     background-color: #fff;
     border-color: #322c58;
 } 
+.samget {
+    position: fixed;
+    z-index: 999;
+}
 @media all and (max-width: 768px) {
 	body {
 		font-size: 17px;
