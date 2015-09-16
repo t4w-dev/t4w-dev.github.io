@@ -21,7 +21,7 @@ h1 {
 }
 h1 span {
 	font-size: 23px;
-	
+    font-weight: 300;
 	line-height: 48px;
 }
 .head {
@@ -32,13 +32,9 @@ h1 span {
 }
 h1+p, h1+p+p {
 	font-size: 18px;
-	
+    font-weight: 300;
 	margin-top: 35px;
 	line-height: 30px;
-}
-.debitcardimg {
-	max-width: 100%;
-	width: 100%;
 }
 .clear {
     clear: both;
@@ -77,7 +73,8 @@ h1+p, h1+p+p {
 .pg-footer li a {
 	color: #646464;
 	padding: 13px 0;
-	display: inline-block; 
+	display: inline-block;
+    font-size: 15px;
 }
 .ta-center {
 	color: #302c59;
@@ -95,6 +92,7 @@ h1+p, h1+p+p {
 .nav-links {
 	display: inline-block;
     margin-top: 14px;
+        margin-right: 150px;
 }
 .nav-links li {
 	float: right;
@@ -185,7 +183,7 @@ h1+p, h1+p+p {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(48,44,89,0.9);
+	background-color: rgba(48,44,89,0.95);
 }
 .box-720 {
 	width: 720px;
@@ -241,14 +239,13 @@ h1+p, h1+p+p {
 .input-text {
 	font-size: 18px;
 	text-align: center;
-	
 	padding:20px 0;
-	width: calc(100% - 100px);
+	width: calc(100% - 200px);
 	outline: 0;
 	margin: 50px 0 30px;
 }
 .quick-should {
-	padding: 0 0 50px;
+	padding: 50px 0;
 }
 .list  {
 	width: 100%;
@@ -652,34 +649,35 @@ html, body {
 .container.smain .div-60 {
     width: 57%;
     margin-left: 43%;
-    top: -580px;
+    top: -490px;
     z-index: -18;
 }
 .scontent div {
-	padding: 380px 0 160px;
+	padding: 350px 0 120px;
 }
 .scontent {
     margin-top: -150px;
 }
 .smobile {
-	width: 275px;
-	height: 495px;
-	background: url(../img/mobile-1.png) no-repeat 0;
+	width: 250px;
+	height: 461px;
+	background: url(../img/mobile-1.png) no-repeat 0 0;
+	background-size: 250px;
 }
 .smobile.firstphone {
 	background-position: 0px 0px;
 }
 .smobile.secondphone {
-	background-position: 0px -510px;
+	background-position: 0px -463px;
 }
 .smobile.thirdphone {
-	background-position: 0px -1020px;
+	background-position: 0px -927px;
 }
 .smobile.fourthphone {
-	background-position: 0px -1530px;
+	background-position: 0px -1392px;
 }
 .smobile.fifthphone {
-	background-position: 0px -2040px;
+	background-position: 0px -1856px;
 }
 .sameer {
     padding: 30px;
@@ -743,6 +741,11 @@ html, body {
 .samget {
     position: fixed;
     z-index: 999;
+    background-color: #fff;
+    color: #312D5A !important;
+}
+.samget:hover {
+	color: #fff !important;
 }
 @media all and (max-width: 768px) {
 	body {
@@ -770,6 +773,10 @@ html, body {
 		margin-top: 35px;
 		line-height: 30px;
 	}
+	.safe-secure {
+	    background-attachment: inherit;
+	    background-size: 100% 100%;
+	}
 }
 
 @media all and (max-width: 720px) {
@@ -796,6 +803,10 @@ html, body {
 	}
 	img {
 		max-width: 100%;
+	}
+	.debitcardimg {
+		max-width: 100%;
+		width: 95%;
 	}
 }
 
