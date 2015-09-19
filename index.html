@@ -1,6 +1,6 @@
 <html>
 	
-<!-- Mirrored from payvega.munark.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Sep 2015 08:07:03 GMT -->
+<!-- Mirrored from payvega.munark.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Sep 2015 17:21:45 GMT -->
 <head>
 		<title>PayVega</title>
 		<link href='http://fonts.googleapis.com/css?family=Lato:700,300' rel='stylesheet' type='text/css'>
@@ -31,12 +31,10 @@
 			<div class="wrapper">
 				<div class="container">
 					<div class="div-60">
-						<div class="waypad">
 							<h1>The way banking should really be</h1>
 							<p>A debit card and an app that helps you save money</p>
-						</div>
 					</div>
-					<div class="div-40 t-center imgSetion">
+					<div class="div-40 t-right imgSetion">
 						<img src="img/mobile.png" alt="PayVeg mobile">
 					</div>
 				</div>
@@ -50,7 +48,7 @@
 							<h1 class="yellow-br"><span>More than an app</span><br>Get Debit Card</h1>
 							<p>An awesomely designed debit card which is accepted both online and offline so that you can shop wherever you want. And just incase you want to withdraw cash, it's acceptable in over 2 Lakh ATM's across India (Learn More)</p>
 					</div>
-					<div class="div-50 t-center imgSetion">
+					<div class="div-50 t-right imgSetion">
 						<img src="img/card.png" alt="PayVeg mobile" class="debitcardimg">
 					</div>
 				</div>
@@ -275,6 +273,7 @@
 			var stickythreeTop = $('#thirdphone').offset().top;
 			var stickyfourthTop = $('#fourthphone').offset().top;
 			var stickyfifthTop = $('#fifthphone').offset().top;
+			var getinvited = $('#getinvited').offset().top;
 
 			$(window).on( 'scroll', function(){
 			        if ($(window).scrollTop() >= stickyoneTop) {
@@ -318,11 +317,21 @@
 		    var divHeight = $('.scontent').height() + 20; 
 			$('.container.smain').css('min-height', divHeight+'px');
 
+			$(window).scroll(function() {    
+			    var scroll = $(window).scrollTop();
+
+			    if (scroll >= getinvited + 2600) {
+			        $(".samget").addClass("disable");
+			    } else {
+			        $(".samget").removeClass("disable");
+			    }
+			});
+			
 
 			// sameer
 		</script>
 		
 	</body>
 
-<!-- Mirrored from payvega.munark.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Sep 2015 08:07:11 GMT -->
+<!-- Mirrored from payvega.munark.in/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Sep 2015 17:21:53 GMT -->
 </html>
