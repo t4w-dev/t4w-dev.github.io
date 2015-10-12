@@ -5,7 +5,7 @@
 	display: none;
 }
 
-.list span, .btn {
+.btn {
   transition: all 200ms,transform 200ms;
   -moz-transition: all 200ms,-moz-transform 200ms;
   -webkit-transition: all 200ms,-webkit-transform 200ms;
@@ -68,7 +68,7 @@ h1+p, h1+p+p {
 	width: 100%;
 	background: #eeeeee;
 	display: inline-block;
-	padding-top: 70px;
+	padding: 70px 0;
 }
 .pg-footer li a {
 	color: #646464;
@@ -271,11 +271,6 @@ h1+p, h1+p+p {
 	position: relative;
 	display: inline-block;
 	width: 100%;
-}
-.list span:hover, .list span.active {
-	color: #302c59;
-	background: #fce84a;
-	box-shadow: 0 0 0 #fce84a;
 }
 
 /*contact us*/
@@ -656,11 +651,11 @@ html, body {
 .container.smain .div-60 {
     width: 57%;
     margin-left: 43%;
-    top: -490px;
+    top: -458px;
     z-index: -18;
 }
 .scontent div {
-	padding: 350px 0 120px;
+	padding: 294px 0 120px;
 }
 .scontent {
     margin-top: -150px;
@@ -766,6 +761,80 @@ html, body {
 }
 .disable {
 	display: none;
+}
+.firsticon, .secondicon, .thirdicon, .fouricon, .fiveicon {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.firsticon {
+	background-image: url(../img/firsticon.png);
+}
+.secondicon {
+	background-image: url(../img/secondicon.png);	
+}
+.thirdicon {
+	background-image: url(../img/thirdicon.png);
+}
+.fouricon {
+	background-image: url(../img/fouricon.png);
+}
+.fiveicon {
+	background-image: url(../img/fiveicon.png);
+}
+.list span:hover span, .list span.active span {
+	background-position: 0 bottom;
+}
+.popup {
+	position: fixed;
+    display: none;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+.popup-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #919191;
+	text-align: center;
+	width: 578px;
+	height: 350px;
+	padding: 60px;
+	margin: -175px 0 0 -289px;
+	background-color: #fff;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.popupclose {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+}
+.popup-content h3 {
+	font-size: 24px;
+	color: #3c385b;
+}
+.popup-content p {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 20px 0;
+}
+.popup-content .numbercounted {
+	font-size: 80px;
+	color: #3c385b;
+}
+.popup-content .numbercounted {
+    font-size: 64px;
+    color: #3c385b;
+    margin-top: 30px;
 }
 @media all and (max-width: 768px) {
 	body {
